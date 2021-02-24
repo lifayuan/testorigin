@@ -1,1 +1,7 @@
-hello world!
+#encoding:utf-8
+from selenium import webdriver
+webdriver=webdriver.chrome()
+webdriver.get('https://www.baidu.com')
+
+
+
